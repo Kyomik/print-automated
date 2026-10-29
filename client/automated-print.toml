@@ -1,0 +1,18 @@
+# Isi nama driver sesuai pilihan yang dilaporkan Windows.
+# nama_print adalah nama printer Windows; sumber_kertas dan nama ukuran
+# harus sama dengan nama yang tampil pada dialog Pengaturan kertas.
+
+[hitam_putih."A4"]
+nama_print = "Brother DCP-L2540DW"
+
+[warna."A4"]
+nama_print = "Epson L15150"
+sumber_kertas = "Paper Tray"
+
+# Duplikasi aturan ini untuk ukuran yang digunakan:
+# [hitam_putih."A5"]
+# nama_print = "Nama printer Windows"
+# sumber_kertas = "Cassette"
+# [warna."A5"]
+# nama_print = "Nama printer Windows"
+# sumber_kertas = "Cassette"

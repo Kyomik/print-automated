@@ -1,5 +1,18 @@
-node_modules/
+﻿# Local credentials and WhatsApp session data
+.env
+.env.*
+!.env.example
 .wwebjs_auth/
 .wwebjs_cache/
 
-.env
+# Local simulation and generated dependencies
+simulation/
+**/node_modules/
+**/env/
+**/venv/
+**/__pycache__/
+
+# Build artifacts and logs
+**/dist/
+**/build/
+*.log
